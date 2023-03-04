@@ -17,6 +17,7 @@ body {
 .under-header{
   text-align: center;
   text-shadow: #5B67fC 1px 0 10px;
+  font-size: 12px
 }
 
 
@@ -29,48 +30,70 @@ body {
 }
 
 .all-over h4 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
 .all-over h5 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
 .all-over h6 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
+.all-over ul {
+  font-size: 12px;
+  text-align: left;
+  margin: 1;
+}
+
 .statefarm h4 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
 .statefarm h5 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
 .statefarm h6 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
-.education h5 {
+.statefarm ul {
   font-size: 12px;
+  text-align: left;
+  margin: 0
+}
+.education h5 {
+  font-size: 13px;
   text-align: left;
   margin: 0
 }
 
 .education h6 {
+  font-size: 13px;
+  text-align: left;
+  margin: 0
+}
+
+.education ul {
+  font-size: 12px;
+  margin: 1
+}
+
+.skills ul {
   font-size: 12px;
   text-align: left;
   margin: 0
@@ -81,6 +104,13 @@ body {
   text-transform: Uppercase;
   color: yellow;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.skills-header {
+  text-align: center;
+  text-transform: Uppercase;
+  color: yellow;
+  text-shadow: 1px 1p
 }
 
 .free-time-header {
