@@ -28,9 +28,9 @@ body {
 }
 
 @keyframes header-animation {
-  0% {background-color: #8ADCDF;}
-  50% {background-color:#35A5A8;}
-  100% {background-color: #8ADCDF;}
+  0% {background-color: #B8CED9;}
+  50% {background-color:#5B7C8C;}
+  100% {background-color: #B8CED9;}
 }
 /* end test */
  
