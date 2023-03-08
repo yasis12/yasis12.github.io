@@ -1,123 +1,131 @@
 body { 
-  background-color: black;
-    color: white;
+  background-color: #F2E2CE;
+    color: #0A0D0D;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 10%;
-  text-shadow: #5B67FC 1px 0 10px;
+  margin: 30% 30%;
+  margin: 100px
 }
-
 .header{
   text-align: center;
-  text-decoration: underline dotted;
-  color: yellow;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  
+  text-decoration: underline dashed;
+  color: #0A0D0D;
+  text-shadow: px px px red, 0 0 1em blue, 0 0 0.2em blue;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left:3px solid black;
+  border-right:3px solid black;
+}
+  /* test animation */
+.header {
+  position: relative;  
+  wa/* I have to put this in or the formatting is all wrong and I dont know why */
+  width: 250px;
+  height: 80px
+  background-color: red;
+  animation-name: header-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
+@keyframes header-animation {
+  0% {background-color: #8ADCDF;}
+  50% {background-color:#35A5A8;}
+  100% {background-color: #8ADCDF;}
+}
+/* end test */
+ 
 .under-header{
   text-align: center;
-  text-shadow: #5B67fC 1px 0 10px;
-  font-size: 12px
+  font-size: 12px;
 }
-
-
 .exp-header {
-  
   text-align: center;
   text-transform: Uppercase;
-  color: yellow;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: #0A0D0D;
+  text-decoration: underline;
+  text-shadow: 2px 2px white;
 }
-
 .all-over h4 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .all-over h5 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .all-over h6 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .all-over ul {
   font-size: 12px;
   text-align: left;
   margin: 1;
 }
-
 .statefarm h4 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .statefarm h5 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .statefarm h6 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .statefarm ul {
   font-size: 12px;
   text-align: left;
-  margin: 0
+  margin: 1
 }
 .education h5 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .education h6 {
   font-size: 13px;
   text-align: left;
   margin: 0
 }
-
 .education ul {
   font-size: 12px;
   margin: 1
 }
-
 .skills ul {
   font-size: 12px;
   text-align: left;
   margin: 0
 }
-
 .education-header {
   text-align: center;
   text-transform: Uppercase;
-  color: yellow;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: #0A0D0D;
+  text-shadow: 2px 2px white;
+  text-decoration: underline;
 }
 
 .skills-header {
   text-align: center;
   text-transform: Uppercase;
-  color: yellow;
-  text-shadow: 1px 1p
+  color: #0A0D0D;
+  text-shadow: 2px 2px white;
+   text-decoration: underline;
 }
 
 .free-time-header {
   text-align: center;
   text-transform: Uppercase;
-  color: yellow;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: #0A0D0D;
+ text-shadow: 2px 2px white;
+   text-decoration: underline;
 }
 
 .column {
@@ -134,5 +142,5 @@ body {
 
 .footer {
   text-align: center;
-  font-size: 10px
+  font-size: 12px
 }
